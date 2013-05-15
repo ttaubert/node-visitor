@@ -1,0 +1,39 @@
+{
+  "name": "visitor",
+  "version": "0.0.0",
+  "description": "walk and transform ASTs with references to parent nodes",
+  "main": "index.js",
+  "keywords": [
+    "ast",
+    "walk",
+    "tree",
+    "syntax",
+    "source",
+    "esprima",
+    "transform",
+    "traversal"
+  ],
+  "dependencies": {
+    "esprima": "1.0.2",
+    "underscore": "1.4.4"
+  },
+  "devDependencies": {
+    "tap": "~0.4.2",
+    "tape": "~1.0.2",
+    "escodegen": "~0.0.22"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ttaubert/node-visitor.git"
+  },
+  "homepage": "https://github.com/ttaubert/node-visitor",
+  "author": {
+    "name": "Tim Taubert",
+    "email": "tim@timtaubert.de",
+    "url": "http://timtaubert.de/"
+  },
+  "license": "MIT"
+}
