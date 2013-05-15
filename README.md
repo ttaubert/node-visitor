@@ -4,6 +4,8 @@ walk and transform ASTs with references to parent nodes
 
 [![browser support](http://ci.testling.com/ttaubert/node-visitor.png)](http://ci.testling.com/ttaubert/node-visitor)
 
+[![build status](https://secure.travis-ci.org/ttaubert/node-visitor.png)](http://travis-ci.org/ttaubert/node-visitor)
+
 This module is heavily inspired by
 [astw](https://github.com/substack/astw),
 [falafel](https://github.com/substack/node-falafel) and
